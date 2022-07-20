@@ -9,11 +9,7 @@
 // Transparency
 float alpha = 1.0;
 
-//static char *font = "Ubuntu Mono:pixelsize=12:antialias=true:autohint=true";
-//static char *font = "Source Code Pro:pixelsize=12:antialias=true:autohint=true";
-//static char *font = "Hack:pixelsize=12:antialias=true:autohint=true";
-//static char *font = "fira code:pixelsize=12:antialias=true:autohint=true";
-static char *font = "Terminus:size=12:antialias=false:autohint=true";
+static char *font = "Terminus:size=11:antialias=false:autohint=true";
 static int borderpx = 2;
 
 /*
