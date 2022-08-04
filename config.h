@@ -7,9 +7,9 @@
  */
 
 // Transparency
-float alpha = 0.9;
+float alpha = 0.8;
 
-static char *font = "Terminus:size=11:antialias=false:autohint=true";
+static char *font = "Terminus:size=12:antialias=false:autohint=true";
 static int borderpx = 2;
 
 /*
