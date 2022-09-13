@@ -6,10 +6,10 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 
-// Transparency
+/* Transparency */
 float alpha = 0.8;
 
-static char *font = "Terminus:size=12:antialias=false:autohint=true";
+static char *font = "Ubuntu Mono:size=12:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
