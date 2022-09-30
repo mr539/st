@@ -9,7 +9,7 @@
 /* Transparency */
 float alpha = 0.8;
 
-static char *font = "Ubuntu Mono:size=12:antialias=true:autohint=true";
+static char *font = "hack:size=12:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -153,7 +153,7 @@ static unsigned int defaultunderline = 7;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 0;
 
 /*
  * Default columns and rows numbers
@@ -188,7 +188,7 @@ static uint forcemousemod = ShiftMask;
  */
 static MouseShortcut mshortcuts[] = {
 	/* mask                 button   function        argument       release */
-	{ XK_ANY_MOD,           Button2, selpaste,       {.i = 0},      1 },
+	/*{ XK_ANY_MOD,           Button2, selpaste,       {.i = 0},      1 },*/
 	{ ShiftMask,            Button4, ttysend,        {.s = "\033[5;2~"} },
 	{ XK_ANY_MOD,           Button4, ttysend,        {.s = "\031"} },
 	{ ShiftMask,            Button5, ttysend,        {.s = "\033[6;2~"} },
