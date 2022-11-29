@@ -7,9 +7,11 @@
  */
 
 /* Transparency */
-float alpha = 0.8;
+float alpha = 0.9;
 
-static char *font = "hack:size=12:antialias=true:autohint=true";
+//static char *font = "Source Code Pro:size=12:antialias=true:autohint=true";
+static char *font = "Hack:size=12:antialias=true:autohint=true";
+//static char *font = "Terminus:size=14:antialias=false:autohint=false";
 static int borderpx = 2;
 
 /*
@@ -125,6 +127,7 @@ static const char *colorname[] = {
 	"#555555",
 	"black",
 	"#002935",
+	"#0365a6",
 };
 
 
@@ -202,7 +205,7 @@ static MouseShortcut mshortcuts[] = {
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
 	{ XK_ANY_MOD,           XK_Break,       sendbreak,      {.i =  0} },
-    { ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
+        { ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
 	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
 	{ MODKEY,               XK_plus,        zoom,           {.f = +1} },
