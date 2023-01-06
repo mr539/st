@@ -9,9 +9,7 @@
 /* Transparency */
 float alpha = 0.9;
 
-//static char *font = "Source Code Pro:size=12:antialias=true:autohint=true";
-static char *font = "Hack:size=12:antialias=true:autohint=true";
-//static char *font = "Terminus:size=14:antialias=false:autohint=false";
+static char *font = "Nimbus Mono:size=12:antialias=false:autohint=false";
 static int borderpx = 2;
 
 /*
